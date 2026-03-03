@@ -1,9 +1,4 @@
-"""
-health inspector{pg}
-Eres un inspector de salubridad y debes asegurarte que se cumpla el reglamento bromatologico {wvy}{/wvy} {pg}
-Dentro de los locales tendrás que revisar que todo esté en orden, puedes revisar las reglas en tu portapapeles, al agarrar un {drwi "dar permiso"} y despues enviar la  {drws "carta"} confirmaras que cumplieron, y si hicieron una infracción recoje un {drwi "Infracción"} antes de enviarla{pg}
-Disclaimer: toda la información utilizada fue extraida del reglamento bromtologico de la Republica Oriental del Uruguay 5ta edición de 2012{pg}Leyes pueden variar con el lugar y atraves del tiempo
-"""
+Health inspector{pg}Eres un inspector de salubridad, tienes que marcar como sancionadas todas las rupturas de las reglas, falsas sanciones te restaran puntos al final
 
 # BITSY VERSION 8.15
 
@@ -20,44 +15,48 @@ PAL 0
 NAME blueprint
 
 ROOM 0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-NAME example room
+cw,cw,cw,cw,cw,cw,cw,0,0,cw,cw,cw,cw,cw,cw,cw
+cw,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,0,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,0,0,cw,cx,0,cw,0,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,0,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,0,0,cw,cx,0,cw,cx,0,cw,0,0,cw
+cw,cx,0,cw,0,0,cw,0,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,0,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw,cx,0,cw
+cw,cx,0,cw,cx,0,cw,0,0,cw,cx,0,cw,cx,0,cw
+cw,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cw
+cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw,cw
+NAME Almacen
+EXT 7,0 2 9,15
+EXT 8,0 2 9,14
 PAL 0
-TUNE 2
 
 ROOM 2
 1u,1u,1v,1w,1x,1u,1y,1x,1x,1x,1z,1x,1x,1x,20,21
 1u,22,23,24,0,0,25,0,0,0,26,0,y,0,27,0
 28,29,2a,2b,2c,2d,2e,2d,2f,2g,2e,2d,2h,2i,2j,29
 2k,0,2l,2m,2n,2o,2p,2q,2r,0,2s,2t,2u,0,2v,0
-2w,2x,2y,2d,2h,2h,2z,2h,2h,2h,2z,2h,2h,2h,30,2h
-31,32,33,34,34,34,35,34,34,34,36,2q,2q,37,0,38
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-39,3a,3a,3a,3a,3a,3a,3a,3b,0,0,0,0,0,0,0
-3c,1u,1u,1u,1u,1u,1u,1u,3d,0,0,0,0,0,0,0
+1u,2x,2y,2d,2h,2h,2z,2h,2h,2h,2z,2h,2h,2h,30,d0
+cu,32,33,34,34,34,35,34,34,34,36,2q,2q,37,0,38
+cu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cz
+cu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cz
+cu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cz
+cu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,cz
+cv,3a,3a,3a,3a,3a,3a,3a,0,0,0,0,0,0,0,cz
+3c,1u,1u,1u,1u,1u,1u,1u,3d,0,0,0,0,0,0,cz
 3c,1u,1u,1u,1u,1u,1u,1u,3d,0,3e,3f,3f,3f,3f,3f
 3c,1u,1u,1u,1u,1u,1u,1u,3d,0,3g,1u,1u,1u,1u,1u
 3c,1u,1u,1u,1u,1u,1u,1u,3d,0,3g,1u,1u,1u,1u,1u
 NAME bodega
+EXT 15,8 4 2,6
+EXT 9,15 0 7,0
+EXT 9,14 0 8,0
 PAL 0
 
 ROOM 3
@@ -78,6 +77,27 @@ y,aa,51,52,2d,53,62,aa,63,64,65,1u,1u,57,58,59
 3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f,3f
 1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u
 NAME recepción
+PAL 0
+
+ROOM 4
+1u,1u,1u,cm,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u,1u
+1u,1u,1u,cm,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,cm,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,cm,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,0,0,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,co,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,ck,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+1u,1u,1u,1u,0,0,0,0,0,0,0,0,4f,1u,1u,1u
+NAME Alley
+EXT 2,6 2 15,8
 PAL 0
 
 TIL 1
@@ -491,12 +511,12 @@ NAME bodega 114
 TIL 38
 00011111
 00011111
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
 NAME bodega 115
 
 TIL 39
@@ -579,7 +599,7 @@ NAME recepción 25
 
 TIL 46
 00111111
-00111111
+00011111
 00000000
 00000000
 00000000
@@ -640,9 +660,9 @@ TIL 51
 00000011
 00000111
 00001111
-10001111
+00001111
 NAME recepción 57
-WAL true
+WAL false
 
 TIL 52
 00000000
@@ -716,7 +736,7 @@ WAL true
 TIL 58
 00000000
 00000000
-00111111
+00011111
 00111111
 00111111
 00111111
@@ -727,7 +747,7 @@ NAME recepción 64
 TIL 59
 00000000
 00000000
-11110000
+11100000
 11110000
 11110000
 11110000
@@ -765,7 +785,7 @@ TIL 62
 10000000
 11000000
 11100000
-11110001
+11110000
 NAME recepción 94
 
 TIL 63
@@ -775,8 +795,8 @@ TIL 63
 00000000
 00000000
 00000000
+00001111
 00011111
-10011111
 NAME recepción 95
 
 TIL 64
@@ -839,8 +859,8 @@ TIL 69
 10011111
 10011111
 10011111
-10011111
 00011111
+00001111
 00000000
 00000000
 00000000
@@ -973,7 +993,7 @@ TIL 81
 11111111
 11111111
 11111111
-11111110
+11111111
 00000000
 00000000
 NAME recepción 165
@@ -1448,7 +1468,7 @@ TIL y
 00000000
 00000000
 00000000
-00000001
+00000000
 NAME bodega 33
 
 TIL z
@@ -2099,9 +2119,9 @@ NAME bodega 120
 WAL true
 
 TIL 3e
-00000000
-00000000
-00000000
+01010101
+11111111
+11111111
 11111111
 11111111
 11111111
@@ -2111,9 +2131,9 @@ NAME bodega 121
 WAL true
 
 TIL 3f
-00000000
-00000000
-00000000
+01010101
+11111111
+11111111
 11111111
 11111111
 11111111
@@ -2147,12 +2167,12 @@ NAME recepción 1
 
 TIL 3i
 00000000
+00000000
 10000000
 10000000
 10000000
 10000000
-10000000
-10000000
+00000000
 00000000
 NAME recepción 2
 
@@ -2326,7 +2346,7 @@ TIL 3y
 00000001
 00000001
 00000001
-00000001
+00000000
 00000000
 00000000
 00000000
@@ -2399,13 +2419,13 @@ TIL 4e
 NAME recepción 34
 
 TIL 4f
-00000011
-00000011
-00000011
-00000011
-00000011
-00000011
-00000011
+00000111
+00000111
+00000111
+00000111
+00000111
+00000111
+00000111
 00000011
 NAME recepción 35
 
@@ -2428,7 +2448,7 @@ TIL 4h
 11111111
 11111111
 11111111
-00000001
+11111111
 NAME recepción 37
 WAL true
 
@@ -2588,14 +2608,14 @@ TIL 4v
 NAME recepción 51
 
 TIL 4w
-00000111
-00000111
-00000111
-00000111
-00000111
-00000111
-00000111
-00000111
+00111111
+00111111
+00111111
+00111111
+00111111
+00111111
+00111111
+00011111
 NAME recepción 52
 WAL true
 
@@ -2612,12 +2632,12 @@ NAME recepción 53
 
 TIL 4y
 00000000
+00000000
 00000001
 00000001
 00000001
 00000001
-00000001
-00000001
+00000000
 00000000
 NAME recepción 54
 
@@ -2712,7 +2732,7 @@ NAME recepción 72
 
 TIL 5h
 11110000
-11110000
+11100000
 00000000
 00000000
 00000000
@@ -2820,6 +2840,7 @@ TIL 5q
 11111100
 11111100
 NAME recepción 82
+WAL true
 
 TIL 5r
 11111100
@@ -2831,6 +2852,7 @@ TIL 5r
 00000000
 00000000
 NAME recepción 83
+WAL false
 
 TIL 5s
 11111100
@@ -2877,9 +2899,9 @@ TIL 5v
 NAME recepción 87
 
 TIL 5w
-00000111
-00000111
-00000111
+00000000
+00000000
+00000000
 00000000
 00000000
 00000000
@@ -2988,14 +3010,14 @@ TIL 6f
 NAME recepción 107
 
 TIL 6g
-11111110
-11111110
-11111110
-11111110
-11111110
-11111110
-11111110
-11111110
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
 NAME recepción 108
 WAL true
 
@@ -4751,22 +4773,22 @@ NAME recepción 297
 
 TIL bq
 00000000
+00111111
 01111111
 01111111
 01111111
-01111111
-01111111
-00000111
+00111111
+00000000
 11111111
 NAME recepción 298
 
 TIL br
 00000000
+10000000
 11000000
 11000000
 11000000
-11000000
-11000000
+10000000
 00000000
 11111100
 NAME recepción 299
@@ -4781,13 +4803,13 @@ TIL bs
 00000011
 00000000
 NAME recepción 300
-WAL true
+WAL false
 
 TIL bt
 11110001
 11110001
 11110001
-11110001
+11110000
 11100000
 11100000
 11000000
@@ -4802,7 +4824,7 @@ TIL bu
 00000000
 00000000
 00000011
-00000011
+00000111
 NAME recepción 302
 
 TIL bv
@@ -4810,7 +4832,7 @@ TIL bv
 11000000
 11000000
 11000000
-11000000
+10000000
 00000000
 00000000
 00000000
@@ -4870,9 +4892,403 @@ TIL c0
 00000000
 00000000
 00000000
-00000011
-00000111
+00011111
+00111111
 NAME recepción 308
+
+TIL c1
+11111000
+10111000
+11000000
+11000000
+11111000
+11110000
+11110000
+11001000
+NAME Alley 1
+
+TIL c2
+11111000
+11111000
+11111000
+11011100
+11111000
+11111000
+11111100
+11111000
+NAME Alley 2
+
+TIL c3
+01111000
+10111000
+10011000
+11001100
+11100000
+10100000
+11111100
+11111100
+NAME Alley 3
+
+TIL c4
+11111000
+11111000
+11110000
+10100000
+11111100
+11111100
+11001100
+10011000
+NAME Alley 4
+
+TIL c5
+00000000
+00000000
+00000000
+00000000
+00000000
+00000001
+00000111
+00001110
+NAME Alley 5
+
+TIL c6
+10111100
+11111000
+11100000
+11100000
+11000000
+11110000
+01111100
+11011100
+NAME Alley 6
+
+TIL c7
+00000000
+00000000
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+NAME Alley 7
+
+TIL c8
+10111100
+10111100
+11011100
+01111100
+11100000
+11100000
+11100100
+11001100
+NAME Alley 8
+
+TIL c9
+11100100
+11100000
+11011010
+11011010
+11011010
+11011010
+01010000
+01010000
+NAME Alley 9
+
+TIL ca
+00000000
+00000000
+00000000
+00000000
+00010000
+00011100
+01111110
+00011110
+NAME Alley 10
+
+TIL cb
+10111110
+11111110
+11111100
+11111100
+11101110
+11111110
+11111110
+11111110
+NAME Alley 11
+
+TIL cc
+00000000
+00000000
+00000000
+00001000
+00001000
+00001000
+00000000
+00000000
+NAME Alley 12
+
+TIL cd
+10000000
+11000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Alley 13
+
+TIL ce
+00000000
+00000000
+00000000
+00000000
+11000000
+11100000
+11111110
+01111111
+NAME Alley 14
+
+TIL cf
+11111110
+11111110
+11111100
+11111100
+01111110
+11110001
+11111001
+11111100
+NAME Alley 15
+
+TIL cg
+00101100
+00001000
+00010000
+00100000
+01100000
+10000000
+00000000
+00000000
+NAME Alley 16
+
+TIL ch
+11011110
+11111110
+01110000
+01111100
+11101111
+11000011
+00000000
+00000000
+NAME Alley 17
+
+TIL ci
+00000000
+00000000
+00000000
+01000000
+11000000
+01100000
+01111000
+00111111
+NAME Alley 18
+
+TIL cj
+00000000
+00000000
+11100001
+11100011
+11010010
+11111100
+11011000
+10010000
+NAME Alley 19
+
+TIL ck
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Alley 20
+WAL true
+
+TIL cl
+11111111
+11111111
+11111111
+11111111
+11111111
+11111000
+11111000
+11111000
+NAME Alley 21
+
+TIL cm
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Alley 22
+WAL true
+
+TIL cn
+11111000
+11111000
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Alley 23
+
+TIL co
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Alley 24
+
+TIL cp
+11111000
+11111000
+11111000
+11111000
+11111000
+11111000
+11111000
+11111001
+NAME Alley 25
+
+TIL cq
+00000000
+00000000
+00000000
+00000000
+00000000
+01110000
+11111000
+11111000
+NAME Alley 26
+
+TIL cr
+11111001
+11111000
+11111000
+11111000
+11111000
+11111000
+11111001
+11111001
+NAME Alley 27
+
+TIL cs
+11111000
+11111000
+11110000
+00000000
+00000000
+11110000
+11111000
+11111000
+NAME Alley 28
+
+TIL ct
+11111000
+11111000
+11110000
+01000000
+00000000
+00000000
+00000000
+00000000
+NAME Alley 29
+
+TIL cu
+11111100
+11111100
+11111100
+11111100
+11111100
+11111100
+11111100
+11111100
+
+TIL cv
+11111100
+11111100
+11111100
+11111100
+11111111
+11111111
+11111111
+11111111
+
+TIL cw
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+WAL true
+
+TIL cx
+00000000
+01111110
+10100101
+10100101
+10011001
+10000001
+10000001
+11111111
+WAL true
+
+TIL cy
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+
+TIL cz
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+WAL true
+
+TIL d0
+00000000
+00000000
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
 
 SPR A
 00011000
@@ -4883,18 +5299,212 @@ SPR A
 10111101
 00100100
 00100100
-POS 2 1,6
+POS 0 5,10
 
-SPR b
+SPR c
+00011000
+00100100
+00011000
+00111100
+01011010
+00011000
+00011000
+00100100
+NAME Dueño
+DLG 3
+POS 3 13,7
+
+SPR d
+00111111
+00100001
+00100001
+00100001
+00101001
+00100001
+00100001
+00111111
+DLG 4
+POS 3 15,13
+
+SPR e
+11111100
+10000100
+10000100
+10000100
+10100100
+10000100
+10000100
+11111100
+DLG 5
+POS 2 0,8
+
+SPR f
 00000000
-00000000
+00111100
+01100110
+01011010
+01000010
+01000010
 01111110
-10100101
-10011001
-10000001
-10000001
+00000000
+DLG g
+POS 0 4,3
+
+SPR g
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
 11111111
-NAME carta
+DLG 6
+POS 4 4,15
+
+SPR h
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG 7
+POS 4 5,15
+
+SPR i
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG 8
+POS 4 6,15
+
+SPR j
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG a
+POS 4 7,15
+
+SPR k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG 9
+POS 4 8,15
+
+SPR l
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG b
+POS 4 9,15
+
+SPR m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG c
+POS 4 10,15
+
+SPR n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG d
+POS 4 11,15
+
+SPR o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+DLG e
+POS 4 12,15
+
+SPR p
+00011000
+00111100
+01000010
+01011010
+01000010
+01011010
+01000010
+00111100
+DLG f
+POS 3 3,13
+
+SPR q
+00000000
+00111100
+01100110
+01011010
+01000010
+01000010
+01111110
+00000000
+DLG h
+POS 0 4,9
+
+SPR r
+00000000
+00111100
+01100110
+01011010
+01000010
+01000010
+01111110
+00000000
+DLG i
+POS 0 4,10
+
+SPR s
+00011000
+00100100
+01000010
+01000010
+01000010
+01010010
+01000010
+01000010
+DLG j
+POS 3 0,7
 
 ITM 0
 00000000
@@ -4951,8 +5561,157 @@ DLG 2
 A key! {wvy}What does it open?{wvy}
 NAME key dialog
 
-VAR a
-42
+DLG 3
+"""
+{
+  - Hablar == 0 ?
+    {drws "Dueño"} Dueño: Bienvenido a mi restaurante, aquí tienes las llaves a la bodega señor inspector{Hablar = 1}
+  - else ?
+    {shuffle
+      - {drws "Dueño"} Dueño: Este restaurante estuvo en mi familia desde hace 60 años, me crie corriendo por estos pasillos mientras mi abuelo cocinaba
+      - {drws "Dueño"} Dueño: Algo en lo que pueda ayudarlo señor inspector
+      - {drws "Dueño"}Dueño: Ya ha revisado todo? que nervios...{pg}{drws "Dueño"} Dueño:  no es como si tuviera nada fuera de orden de todos modos
+    }
+}
+"""
+NAME Dueño dialog
+
+DLG 4
+"""
+{
+  - Hablar >= 1 ?
+    {exit "2" 0 8}
+  - else ?
+    Debería pedirle las llaves al dueño del local
+}
+"""
+NAME Puerta dialogo
+
+DLG 5
+{exit "3" 14 13}
+NAME sprite e dialog
+
+DLG 6
+No debería irme antes de enviar el resumen
+NAME sprite g dialog
+
+DLG 7
+No debería irme antes de enviar el resumen
+NAME sprite h dialog
+
+DLG 8
+No debería irme antes de enviar el resumen
+NAME sprite i dialog
+
+DLG 9
+No debería irme antes de enviar el resumen
+NAME sprite k dialog
+
+DLG a
+No debería irme antes de enviar el resumen
+NAME sprite j dialog
+
+DLG b
+No debería irme antes de enviar el resumen
+NAME sprite l dialog
+
+DLG c
+No debería irme antes de enviar el resumen
+NAME sprite m dialog
+
+DLG d
+No debería irme antes de enviar el resumen
+NAME sprite n dialog
+
+DLG e
+No debería irme antes de enviar el resumen
+NAME sprite o dialog
+
+DLG f
+"""
+{cycle
+  - Reglamento de carnes (Parte del capítulo 13 del RBN 2da edición de Uruguay) 
+  - 13.1.7. Carne fresca. Es aquella que sólo ha sufrido las manipulaciones propias del faenado y oreo refrigerado y que no ha sufrido ninguna modificación esencial en sus características originales, presentando el color, olor y textura que le son propias.
+    
+    13.1.8. Carne refrigerada. Es toda carne sometida al frío con el fin de preservar sus características higiénico-sanitarias y sensoriales u organolépticas.
+    
+    13.1.9. Carne enfriada. Es aquella sometida a un proceso de refrigeración y mantenida a una temperatura entre -1 grado C y +4 grados C en la profundidad de las masas musculares.
+    
+    13.1.10. Carne congelada. Es aquella que, además de las manipulaciones propias de la fresca, ha sido sometida a la acción del frío industrial hasta conseguir en el centro de la masa muscular una temperatura no mayor de -18 grados C, la que debe ser mantenida durante el almacenamiento y la cadena de distribución.
+}
+"""
+NAME sprite p dialog
+
+DLG g
+"""
+{
+  - Heladera3 == 0 ?
+    Congelador con carne congelada, el termómetro marca -25 grados Celsius en el centro de la masa muscular{pg}(actívalo otra vez para enviar una infracción){Heladera3 = 1}
+  - Heladera3 == 1 ?
+     Infracción enviada{Infracciones = Infracciones - 1}{Heladera3 = 2}
+  - Heladera3 == 2 ?
+     Infracción ya enviada
+}
+"""
+NAME sprite f dialog
+
+DLG h
+"""
+{
+  - Heladera2 == 0 ?
+    Un congelador que dice carne enfriada, tu termometro marca 3 grados Celsius en temperatura intramuscular{pg}(actívalo otra vez si quieres reportar una infracción){Heladera2 = 1}
+  - Heladera2 == 1 ?
+     Infracción enviada{Heladera2 = 2}{Infracciones = Infracciones - 1}
+  - Heladera2 == 2 ?
+     Infracción ya enviada
+}
+"""
+NAME sprite q dialog
+
+DLG i
+"""
+{
+  - Heladera1 == 1 ?
+    Infracción enviada{Infracciones = Infracciones + 1}{Heladera1 = 2}
+  - Heladera1 == 2 ?
+     Infracción ya enviada
+  - Heladera1 == 0 ?
+     Un congelador que dice carne enfriada, tu termómetro marca 10 grados C{pg}(Interactúa otra vez para enviar una infracción){Heladera1 = 1}
+}
+"""
+NAME Heladera1
+
+DLG j
+"""
+{
+  - Salir == 0 ?
+    Asegurate de que todo esté revisado antes de irte{Salir = 1}
+  - else ?
+    {drws "A"}: inspector: creo que todo está listo, me voy{pg}Tu puntaje es {say Infracciones} sobre (numero no definido){end}
+}
+"""
+NAME sprite s dialog
+
+VAR Hablar
+0
+
+VAR Heladera1
+0
+
+VAR Heladera2
+0
+
+VAR Heladera3
+0
+
+VAR Heladera4
+0
+
+VAR Infracciones
+0
+
+VAR Salir
+0
 
 TUNE 1
 3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
